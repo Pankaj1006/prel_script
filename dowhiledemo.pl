@@ -1,6 +1,7 @@
-print "Do while demo";
 do{
-   print "enter number";
-   $num=<>;
-   print "The number: $num";
-}while($num <15) 
+print "Enter name";
+$nm=<>;
+print "Wants to enter more(y/n)?\n";
+$ans=<>;   
+chomp($ans);
+}while($ans eq  "y");
